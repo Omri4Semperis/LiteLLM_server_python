@@ -1,18 +1,24 @@
 model_list:
   - model_name: Haiku 4.5
     litellm_params:
-      model: azure_ai/demo_claude-haiku-4-5
+      model: azure_ai/claude-haiku-4-5
       api_base: https://ai-foundry-rnd-dev.services.ai.azure.com/anthropic
       api_key: os.environ/AZURE_API_KEY
 
   - model_name: Sonnet 4.5
     litellm_params:
-      model: azure_ai/demo_claude-sonnet-4-5
+      model: azure_ai/claude-sonnet-4-5
       api_base: https://ai-foundry-rnd-dev.services.ai.azure.com/anthropic
       api_key: os.environ/AZURE_API_KEY
 
   - model_name: Opus 4.5
     litellm_params:
-      model: azure_ai/demo_claude-opus-4-5
+      model: azure_ai/claude-opus-4-5
+      api_base: https://ai-foundry-rnd-dev.services.ai.azure.com/anthropic
+      api_key: os.environ/AZURE_API_KEY
+
+  - model_name: Opus 4.6
+    litellm_params:
+      model: azure_ai/claude-opus-4-6
       api_base: https://ai-foundry-rnd-dev.services.ai.azure.com/anthropic
       api_key: os.environ/AZURE_API_KEY
